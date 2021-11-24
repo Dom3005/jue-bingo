@@ -9,23 +9,8 @@ let fields =
     "Regt sich auf", "1-Hand Clap", "Kurzes Handzeichen", "Jungs & Mädels", "Mädels",
     "Jungs", "habe ich schonmal gesagt", "nächste Woche", "wer schon fertig ist...", "wer hat einen funktionsfähigen Tachenrechner?",
     "das müsste man pruefen", "Sekunde", "auch ohne GTR", "Funktion definieren", "wer weiß wie das geht?",
-    "mach ich mit meiner 8/9/EF/Q2", "so eine Geschichte", "Mathematiker sind faul", "nimmt jmd ohne Ahnung dran", "[Zahl ohne Einheit] was?"];
-
-let fieldsE = 
-    ["In English please", "Spricht Namen falsch aus", "Fake Accent", "Von Fr. Barnard verbessert", "Fr. Barnard beschwert sich",
-    "Unlustiger Spruch", "Steht vorne ohne Maske", "Anyone else?", "Kommt zu spaet", "Unterbricht andere",
-    "Versteht Frage falsch", "Diskutiert mit irgendwem", "Sieht ihre Fehler nicht ein", "Kennt Namen nicht", "Schaut auf Sitzplan nach Namen"];
-
-let fieldsJue =
-    ["Ääää.. öööö.. ääh", "Fenster auf", "Atlanten", "Erwähnt seine Reisen", "Oh.. da war ich schonmal",
-    '"verspricht" Bilder zu zeigen', "letzte Reihe", "Unterbricht andere", "Überprüft Anwesenheit", "in a minute",
-    "kommt noch/erst in der Q2", "Mittelstufenstoff", "AHA!", "gesteht seine Fehler nicht ein", "diskutiert mit Tobias",
-    "mittelmäßige Skizze", "Schreibt Vokabeln an", "Es sind immer die selben!", "WOTT?", "Fängt Deutsch an, endet Englisch",
-    "YESSS!", "vielleicht schonmal gehört", "Anekdoten", "wie sagt man..", "teilt Blätter aus",
-    "Klausurrelevant", "STOP! STOP! STOP!", "Auf Moodle", "Hausaufgaben last-minute", "öööhh, ähh so öäh",
-    "ähh no!", "Did I say that already?", "Ich bin ja kein ...", "Meine Frau ist ja Biologin", "Erwähnt jmd der letzten Reihe",
-    "Regt sich auf", "Zeigt aufgeregt mit dem Finger auf Leute"]
-
+    "mach ich mit meiner 8/9/EF/Q2", "so eine Geschichte", "Mathematiker sind faul", "nimmt jmd ohne Ahnung dran", "[Zahl ohne Einheit] was?",
+    "Von anderen Mathelehrern ausgeschlossen", "Klausur noch nicht korrigiert", "Redet Fehler klein"];
 
 let middle = "Das Moll'sche Nicken"
 
@@ -85,7 +70,6 @@ function generateGrid(){
     // If current element == center
 
     if(grid.length == 12){
-        //Math.floor(size*Math.floor(size*.5) + Math.floor(size*.5))){
         grid.push(middle);
         generateGrid();
         return;
