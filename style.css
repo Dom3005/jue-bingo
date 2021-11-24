@@ -9,6 +9,7 @@ body{
     width: 650px;
     table-layout: fixed;
     text-align: center;
+    border-collapse: collapse;
 }
 
 #bingo td, th{
