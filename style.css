@@ -35,4 +35,13 @@ body{
     text-align: center;
     display: inline-block;
     width: 100%;
+    float: none;
+    padding-inline-start: 0;
+}
+
+
+.title li{
+    display: inline-block;
+    float:none;
+    margin: 0 25px
 }
