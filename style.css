@@ -2,19 +2,19 @@ body{
     background-color: bisque;
 }
 
-#bingo{
+#bingo {
     margin: auto;
     border: 1px solid black;
-    height: 750px;
-    width: 750px;
+    height: 75vh;
+    width: 75vh;
     table-layout: fixed;
     text-align: center;
 }
 
 #bingo td, th{
     border: 1px solid black;
-    width: 150px;
-    height: 150px;
+    width: 20%;
+    height: 20%;
 }
 
 .cellButton{
