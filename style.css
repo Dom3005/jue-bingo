@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+
+#bingo {
+    margin: auto;
+    border: 1px solid black;
+    height: 750px;
+    width: 750px;
+    table-layout: fixed;
+    text-align: center;
+}
+
+#bingo td, th{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.cellButton{
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    color:black;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
