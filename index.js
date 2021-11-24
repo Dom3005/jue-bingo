@@ -23,7 +23,7 @@ let fields =
     "YESSS!", "vielleicht schonmal gehört", "Anekdoten", "wie sagt man..", "teilt Blätter aus",
     "Klausurrelevant", "STOP! STOP! STOP!", "Auf Moodle", "Hausaufgaben last-minute", "öööhh, ähh so öäh",
     "ähh no!", "Did I say that already?", "Ich bin ja kein ...", "Meine Frau ist ja Biologin", "Erwähnt jmd der letzten Reihe",
-    "Regt sich auf"]
+    "Regt sich auf", "Zeigt aufgeregt mit dem Finger auf Leute"]
 
 
 let middle = "Das Moll'sche Nicken"
