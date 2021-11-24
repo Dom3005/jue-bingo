@@ -5,16 +5,16 @@ body{
 #bingo {
     margin: auto;
     border: 1px solid black;
-    height: 75vh;
-    width: 75vh;
+    height: 750px;
+    width: 750px;
     table-layout: fixed;
     text-align: center;
 }
 
 #bingo td, th{
     border: 1px solid black;
-    width: 20%;
-    height: 20%;
+    width: 150px;
+    height: 150px;
 }
 
 .cellButton{
